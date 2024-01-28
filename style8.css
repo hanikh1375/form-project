@@ -1,0 +1,136 @@
+* , *::before , *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 800px;
+    height: 600px;
+    background-image: url(/img/Christmas.jpg);
+    position: relative;
+    transform: translate(50px , 50px);
+}
+.form-box{
+    width: 700px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.562);
+    position: absolute;
+    transform: translate(50px , 50px);    
+}
+h1{
+    color: rgb(34, 188, 31);
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+span{
+    color: rgb(105, 169, 40);
+}    
+.first-row{      
+    display: flex;    
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    /* padding: 10px;     */
+}
+
+
+.second-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;  
+}
+.input-box{
+    width: 400px;
+    display: flex;
+    gap: 5px;
+}
+.text-input{
+    width: 50%;
+    padding: 5px;
+    border: 2px solid green;
+    background-color: rgba(0, 0, 0, 0.085);
+}
+.email_input{
+    width: 100%;
+    margin-left: 5px;
+    padding: 5px;
+    border: 2px solid green;
+    background-color: rgba(0, 0, 0, 0.085);
+}
+.third-row{    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.number-input{
+    width: 33.333%;
+    padding: 5px;
+    margin-left: 5px;  
+    border: 2px solid green;
+    background-color: rgba(0, 0, 0, 0.085);  
+}
+.fourth-row{
+    color: white;
+    display: flex;   
+    margin-top: 10px;
+    transform: translateX(90px);
+}
+.checkbox{
+    transform: translateX(75px);
+}
+.fifth-row{
+    color: white;
+    display: flex;   
+    margin-top: 10px;
+    transform: translateX(75px);
+}
+.option{
+    width: 50px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.171);
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    transform: translateX(220px);
+}
+.top-end-row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: white;    
+    border-bottom: 2px solid white;
+    word-spacing: 30px;
+}
+.down-end-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: white;
+    word-spacing: 55px;  
+}
+a{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    background-color: rgba(200, 255, 196, 0.159);
+    color: green;
+    transform: translateX(280px);
+    border-radius: 25px;
+    margin-top: 2px;
+    text-decoration: none;
+}
